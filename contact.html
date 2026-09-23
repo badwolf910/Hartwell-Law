@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Elena Hartwell for speaking, mediation, teaching, or research collaboration inquiries." />
+    <title>Contact | Elena Hartwell</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <span class="eyebrow">Elena Hartwell</span>
+          <span class="brand-subtitle">Law • Mediation • Scholarship</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="work.html">Work</a>
+          <a href="scholarship.html">Scholarship</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="page-intro">
+          <p class="kicker">Contact</p>
+          <h1 class="page-title">Start a conversation.</h1>
+          <p class="page-subtitle">
+            For speaking engagements, mediation inquiries, teaching opportunities, or collaborative research, send a note and Hartwell’s office will respond promptly.
+          </p>
+        </section>
+
+        <section class="contact-layout">
+          <aside class="contact-card">
+            <h3>Inquiries</h3>
+            <ul>
+              <li>Speaking engagements</li>
+              <li>Mediation and facilitation</li>
+              <li>Workshops and trainings</li>
+              <li>Research collaborations</li>
+            </ul>
+          </aside>
+
+          <form class="contact-form">
+            <div class="field-row">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="Your email" />
+              </label>
+            </div>
+            <label>
+              Inquiry type
+              <select name="type">
+                <option>Speaking engagement</option>
+                <option>Mediation</option>
+                <option>Research collaboration</option>
+                <option>Teaching or workshop</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" placeholder="Tell me a little about your request..." rows="5"></textarea>
+            </label>
+            <button type="submit" class="button primary">Send inquiry</button>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
