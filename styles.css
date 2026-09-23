@@ -539,6 +539,17 @@ textarea {
 
   .hero {
     padding-top: 36px;
+    gap: 28px;
+  }
+
+  .hero h1 {
+    line-height: 0.96;
+    letter-spacing: -0.03em;
+    margin-bottom: 10px;
+  }
+
+  .lede {
+    margin-top: 14px;
   }
 
   .main-nav {
